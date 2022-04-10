@@ -55,4 +55,9 @@ Another key analuysis focsed on creating a table that breaks down school perform
 * % passing reading (the percentage of students who passed reading)
 * % overall passing (the percentage of students who passed math AND reading)
 
-The final two analysis centered on the Scores by School Size categorizing school size as (small, medium, or large) and a table that breaks down school performance based on type of school (district or charter).
+The final two analysis centered on
+
+* Scores by School Size categorizing school size as (small, medium, or large) 
+* Performance based on type of school (district or charter).
+
+From the various anlysis completed, some key information was determined. Reveiwing the overall passing scores for students in Charter schools were significantly higher than those students in district schools. 
