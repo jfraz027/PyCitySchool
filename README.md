@@ -1,18 +1,11 @@
 # PyCitySchool
 
-Having spent years analyzing financial records for big banks, you've finally scratched your idealistic itch and joined the education sector. Your latest role is Chief Data Scientist for your city's school district. In this capacity, you'll be helping the school board and mayor make strategic decisions regarding future school budgets and priorities.
+As the Chief Data Scientist for the city's school district, the goal of was to help the school board and mayor make strategic decisions regarding future school budgets and priorities. The first step was to analyze the district-wide standardized test results. With access to every student's math and reading scores, as well as various information on the schools they attend the the primary goal was to aggregate the data to showcase obvious trends in school performance.
 
-As a first task, you've been asked to analyze the district-wide standardized test results. You'll be given access to every student's math and reading scores, as well as various information on the schools they attend. Your task is to aggregate the data to showcase obvious trends in school performance.
+## Work
+Using Pandas and Jupyter Notebook as the primary analytical tools of choice, a report ws created that included the following data. 
 
-## Instructions
-
-Using Pandas and Jupyter Notebook, create a report that includes the following data. Your report must include a written description of at least two observable trends based on the data.
-
-**Hint:** Check out a [sample solution](PyCitySchools/PyCitySchools_starter.ipynb) to review the desired format for this assignment.
-
-### District Summary
-
-Create a high-level snapshot, in a DataFrame, of the district's key metrics, including the following:
+### A District Summary comprised of a high-level snapshot of the district's key metrics listed below:
 
 * Total schools
 * Total students
@@ -23,9 +16,7 @@ Create a high-level snapshot, in a DataFrame, of the district's key metrics, inc
 * % passing reading (the percentage of students who passed reading)
 * % overall passing (the percentage of students who passed math AND reading)
 
-### School Summary
-
-Create a DataFrame that summarizes key metrics about each school, including the following:
+### School Summary including a summarization of key metrics about each school including:
 
 * School name
 * School type
@@ -38,25 +29,8 @@ Create a DataFrame that summarizes key metrics about each school, including the 
 * % passing reading (the percentage of students who passed reading)
 * % overall passing (the percentage of students who passed math AND reading)
 
-### Highest-Performing Schools (by % Overall Passing)
-
-Create a DataFrame that highlights the top 5 performing schools based on % Overall Passing. Include the following metrics:
-
-* School name
-* School type
-* Total students
-* Total school budget
-* Per student budget
-* Average math score
-* Average reading score
-* % passing math (the percentage of students who passed math)
-* % passing reading (the percentage of students who passed reading)
-* % overall passing (the percentage of students who passed math AND reading)
-
-
-### Lowest-Performing Schools (by % Overall Passing)
-
-Create a DataFrame that highlights the bottom 5 performing schools based on % Overall Passing. Include the following metrics:
+### Highest & Lowest-Performing Schools (by % Overall Passing)
+A DataFrame was created for both the top and bottom 5 performing schools based on % Overall Passing. The focus metrics of the analysis included:
 
 * School name
 * School type
@@ -69,17 +43,11 @@ Create a DataFrame that highlights the bottom 5 performing schools based on % Ov
 * % passing reading (the percentage of students who passed reading)
 * % overall passing (the percentage of students who passed math AND reading)
 
-### Math Scores by Grade
-
-Create a DataFrame that lists the average math score for students of each grade level (9th, 10th, 11th, 12th) at each school.
-
-### Reading Scores by Grade
-
-Create a DataFrame that lists the average reading score for students of each grade level (9th, 10th, 11th, 12th) at each school.
+### Math  & Reading Scores by Grade
+Date composed of lists for the average math and reading score for students of each grade level (9th, 10th, 11th, 12th) at each school was developed also. 
 
 ### Scores by School Spending
-
-Create a table that breaks down school performance based on average spending ranges (per student). Use your judgment to create four bins with reasonable cutoff values to group school spending. Include the following metrics in the table:
+Another key analuysis focsed on creating a table that breaks down school performance based on average spending ranges (per student). An important factor was to determine a reasonable cutoff value to group school spending. The table contained thr following metrics table:
 
 * Average math score
 * Average reading score
@@ -87,9 +55,4 @@ Create a table that breaks down school performance based on average spending ran
 * % passing reading (the percentage of students who passed reading)
 * % overall passing (the percentage of students who passed math AND reading)
 
-### Scores by School Size
-
-Create a table that breaks down school performance based on school size (small, medium, or large).
-### Scores by School Type
-
-Create a table that breaks down school performance based on type of school (district or charter).
+The final two analysis centered on the Scores by School Size categorizing school size as (small, medium, or large) and a table that breaks down school performance based on type of school (district or charter).
