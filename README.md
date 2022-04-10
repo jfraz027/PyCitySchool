@@ -60,4 +60,4 @@ The final two analysis centered on
 * Scores by School Size categorizing school size as (small, medium, or large) 
 * Performance based on type of school (district or charter).
 
-From the various anlysis completed, some key information was determined. Reveiwing the overall passing scores for students in Charter schools were significantly higher than those students in district schools. 
+From the various anlysis completed, some key information was determined. Reveiwing the overall passing scores for students in Charter schools were significantly higher than those students in district schools. The overall passing scores of the charter schools averaged around 90 and the district schools were 53. ALso taking a look at the top 5 schools and bottom 5 schools support this in that the top 5 are charter and the bottom 5 are district respectively. 
