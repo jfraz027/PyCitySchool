@@ -3,7 +3,7 @@
 As the Chief Data Scientist for the city's school district, the goal of was to help the school board and mayor make strategic decisions regarding future school budgets and priorities. The first step was to analyze the district-wide standardized test results. With access to every student's math and reading scores, as well as various information on the schools they attend the the primary goal was to aggregate the data to showcase obvious trends in school performance.
 
 ## Work
-Using Pandas and Jupyter Notebook as the primary analytical tools of choice, a report ws created that included the following data. 
+Using Pandas and Jupyter Notebook as the primary analytical tools of choice, a report was created that included the following data. 
 
 ### A District Summary comprised of a high-level snapshot of the district's key metrics listed below:
 
@@ -60,4 +60,4 @@ The final two analysis centered on
 * Scores by School Size categorizing school size as (small, medium, or large) 
 * Performance based on type of school (district or charter).
 
-From the various anlysis completed, some key information was determined. Reveiwing the overall passing scores for students in Charter schools were significantly higher than those students in district schools. The overall passing scores of the charter schools averaged around 90 and the district schools were 53. ALso taking a look at the top 5 schools and bottom 5 schools support this in that the top 5 are charter and the bottom 5 are district respectively. One other key trend identifed from the analysis focus on scoring between the different grades. There is very consistent scores for each grade across all schools. The scores on average are -1 or +1 in scoring. The same observations can be identified from reading scores as well. 
+From the various anlysis completed, some key information was determined. Reveiwing the overall passing scores for students in Charter schools were significantly higher than those students in district schools. The overall passing scores of the charter schools averaged around 90 and the district schools were 53. ALso taking a look at the top 5 schools and bottom 5 schools support this in that the top 5 are charter and the bottom 5 are district respectively. One other key trend identifed from the analysis focus on scoring between the different grades. There is very consistent scores for each grade across all schools. The scores on average are -1 or +1 in scoring. The same observations can be identified from reading scores as well. Again, revisitng the overall scores, schools with a lower spending budget yeilded higher scoring. This supports the earlier the difference in Charter and District school scores with Charter spending less but achieving higher scores. 
